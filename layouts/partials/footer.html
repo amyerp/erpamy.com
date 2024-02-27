@@ -1,0 +1,70 @@
+{{ "<!-- ======= Footer ======= -->" | safeHTML }}
+<footer id="footer">
+	<div class="footer-top" style="background-color: #f3f5fa">
+		<div class="container">
+		  <div class="row">
+
+			<div class="col-lg-3 col-md-6 footer-contact">
+				<a href="/" class="logo me-auto" style="display:flex;"><img src="{{ `assets/img/logo512.png` | absURL }}"  alt="" class="img-fluid" style="margin-right:10px; margin-top:-5px; border-radius: 50%;"> <h1 class="logo me-auto"> {{ .Site.Title }}</h1></a>
+			  <p>
+				MyMates GmbH <br>
+				Josephsplatz 8, 90403 Nürnberg<br>
+				Germany <br><br>
+				Fiatbay Ltd <br>
+				21st Floor, CMA Building<br>
+				64 Connaught Road Central<br>
+				Hong Kong <br><br>
+				<strong>Email:</strong> info@erpamy.com<br>
+			  </p>
+			</div>
+
+			<div class="col-lg-3 col-md-6 footer-links">
+			  <h4>{{ i18n "usefull_links" | safeHTML }}</h4>
+			  <ul>
+				<li><i class="bx bx-chevron-right"></i> <a href="#">{{ i18n "home" | safeHTML }}</a></li>
+				<li><i class="bx bx-chevron-right"></i> <a href="#about">{{ i18n "about_us" | safeHTML }}</a></li>
+				<li><i class="bx bx-chevron-right"></i> <a href="#">{{ i18n "career" | safeHTML }}</a></li>
+				<li><i class="bx bx-chevron-right"></i> <a href="/terms-of-use">{{ i18n "terms_of_use" | safeHTML }}</a></li>
+				<li><i class="bx bx-chevron-right"></i> <a href="/privacy">{{ i18n "privacy" | safeHTML }}</a></li>
+			  </ul>
+			</div>
+
+			<div class="col-lg-3 col-md-6 footer-links">
+			  <h4>{{ i18n "our_service" | safeHTML }}</h4>
+			  <ul>
+				<li><i class="bx bx-chevron-right"></i> <a href="#who_use">{{ i18n "for_logistic"  | safeHTML }}</a></li>
+				<li><i class="bx bx-chevron-right"></i> <a href="#who_use">{{ i18n "for_entreprises"  | safeHTML }}</a></li>
+
+			  </ul>
+			</div>
+
+			<div class="col-lg-3 col-md-6 footer-links">
+			  <h4>{{ i18n "social"  | safeHTML }}</h4>
+			  <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p> -->
+			  <div class="social-links mt-3">
+
+				<a href="https://www.linkedin.com/company/amy-erp-crm/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+				<a href="https://www.youtube.com/@amyerp" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
+			  </div>
+			</div>
+
+		  </div>
+		</div>
+	  </div>
+
+	<div class="container footer-bottom clearfix">
+		<div class="row d-flex align-items-center">
+			<div class="col sm-6 copyright">
+			<!-- <strong>{{ .Site.Params.copyright | markdownify }} </strong> -->
+			<strong>&copy; 2023 • Amy ERP/CRM. All Rights Reserved </strong>
+			</div>
+
+		</div>
+
+	</div>
+
+</footer>{{ "<!-- End Footer -->" | safeHTML }}
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<a href="#" id="chatbtn" class="open-zammad-chat"><div id="chaticon"><i class="bi bi-chat-right-text"></i></div></a>

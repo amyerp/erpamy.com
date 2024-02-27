@@ -1,0 +1,69 @@
+################## Deutsche navigation Language menu #################
+[[language]]
+name = "English"
+url = "/en"
+post = "flag flag-united-kingdom"
+weight = 1
+
+
+[[language]]
+name = "Itaiano"
+url = "/it"
+post = "flag flag-italy"
+weight = 2
+
+[[language]]
+name = "vietnamese"
+url = "/vn"
+post = "flag flag-vietnam"
+weight = 3
+
+################## Deutsche navigation Button menu #################
+[[button]]
+name = "Portal Anmelden"
+url = "https://customers.erpamy.com/"
+weight = 1
+
+
+[[button]]
+name = "Amy ERP/CRM Anmelden"
+url = "https://erp.erpamy.com/"
+weight = 2
+
+################## Deutsche navigation. Main menu #################
+
+[[main]]
+name = "Heim"
+url = "#hero"
+post = "active"
+weight = 1
+[[main]]
+name = "About Us"
+url = "#about"
+post = ""
+weight = 2
+[[main]]
+name = "Produkt"
+identifier = "productmenu"
+url = "#portfolio"
+post = ""
+weight = 3
+hasChildren = false
+
+[[main]]
+name = "Team"
+url = "#team"
+post = ""
+weight = 4
+
+
+
+
+
+
+[[main]]
+name = "Kontaktiere uns"
+url = "#contact"
+post = ""
+weight = 5
+

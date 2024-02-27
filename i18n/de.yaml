@@ -1,0 +1,365 @@
+-
+    id: site_title
+    translation: Amy ERP/CRM - Software für Rechnungsstellung und Buchhaltung
+-
+    id: site_not_found
+    translation: Seite nicht gefunden
+-
+    id: site_desc
+    translation: Sind Sie auf der Suche nach einem einfachen Rechnungssoftware? Amy ERP/CRM ermöglicht es Ihnen, Rechnungen, Gutschriften und Proformarechnungen auszustellen, Verträge zu erstellen und die Buchhaltung zu verwalten
+-
+    id: site_desc_2
+    translation: Amy ERP/CRM-Software für die Ausstellung von Rechnungen, Gutschriften und Proforma-Rechnungen, die Erstellung von Verträgen und die Buchhaltung
+-
+    id: site_desc_3
+    translation: Software für Buchhaltung und Rechnungsstellung
+-
+    id: home_page
+    translation: Start Seite
+-
+    id: get_started
+    translation: Request a Demo
+-
+    id: signin
+    translation: Anmelden
+-
+    id: hero_h1
+    translation: Best ERP  for Logistic and Warehouses companies
+-
+    id: hero_h2
+    translation: Customized solutions to maximize compatibility with your business processes.
+-
+    id: try_amy
+    translation: Request a Demo
+-
+    id: why_amy
+    translation: About Us
+-
+    id: about
+    translation: Amy ist nicht nur ein ERP - es ist ein digitaler Assistent, der Ihnen hilft, Rechnungen auszustellen und Informationen über Ihr Unternehmen zu sammeln
+- id: about_1
+  translation: We see it as our mission to free you from the accounting routine by 100%. We want you to be able to devote all your time to taking care of your customers, improving your product and maximizing profits. All accounting will be taken care of by your digital assistant Amy.
+- id: about_2
+  translation: Today we offer solutions for businesses, private entrepreneurs and freelancers in the field of
+- id: about_3
+  translation:  Accounting
+- id: about_4
+  translation:  Logistics and Warehouse
+- id: about_5
+  translation:  Records of Customers and Suppliers
+- id: about_6
+  translation:  Agreements
+- id: about_7
+  translation: Angaben zu Einnahmen und Ausgaben
+- id: about_8
+  translation: Each of our functionalities based on specifics of your Business Processes. Thus, we increase the efficiency of your business.
+- id: about_9
+  translation: Profit in business is an indicator of your reputation and the trust of your customers. Increase your customer confidence, maximize your profits with Amy
+- id: about_10
+  translation: E-Mail-Versand von Rechnungen
+- id: about_btn_invoice
+  translation: Learn More
+-
+    id: sudscribe_h3
+    translation: Anmeldung für Updates
+-
+    id: sudscribe_p
+    translation: Abonnieren Sie unsere E-Mail-Updates, um über Amy-Angebote sowie unsere neuesten Nachrichten, Ansichten und Ratschläge auf dem Laufenden zu bleiben.
+-
+    id: name
+    translation: Name
+-
+    id: email
+    translation: E-Mail
+-
+    id: sudscribe
+    translation: Abonnieren
+-
+    id: features
+    translation: Merkmale
+-
+    id: accounting
+    translation: Buchhaltung
+-
+    id: acc_1
+    translation: Hauptbuch
+-
+    id: acc_2
+    translation: Rechnungen, Gutschriften, Proforma
+-
+    id: acc_3
+    translation: Anlagevermögen
+-
+    id: acc_4
+    translation: Bankkontoauszüge
+-
+    id: manegement
+    translation: Verwaltung
+-
+    id: man_1
+    translation: Vereinbarungen
+-
+    id: man_2
+    translation: Kontrahenten und Kunden
+-
+    id: man_3
+    translation: Sammlung der eingehenden/ausgehenden Korrespondenz
+-
+    id: hr
+    translation: HR
+-
+    id: hr_1
+    translation: Mitarbeiter-Karten
+-
+    id: hr_2
+    translation: Gehaltszettel
+-
+    id: automat
+    translation: Automatisierung
+-
+    id: automat_1
+    translation: E-Mail-Versand von Rechnungen
+-
+    id: automat_2
+    translation: Rechnungen im PDF-Format exportieren
+-
+    id: automat_3
+    translation: Hauptbuch in CSV exportieren
+-
+    id: amy_pricing
+    translation: Amy-Preise
+-
+    id: price_exp
+    translation: pro Monat bei jährlicher Abrechnung
+-
+    id: feats
+    translation: Funktionen
+-
+    id: feat_1
+    translation: 1 Unternehmen
+-
+    id: feat_2
+    translation: 1 Benutzer
+-
+    id: feat_3
+    translation: 1 Benutzer mit Nur-Lesezugriff
+-
+    id: feat_4
+    translation: 5 Gb Speicherplatz
+-
+    id: feat_5
+    translation: Handelspartner und Kunden
+-
+    id: feat_6
+    translation: Vereinbarungen einholen
+-
+    id: feat_7
+    translation: Rechnungen, Proformarechnungen und Gutschriften ausstellen
+-
+    id: feat_8
+    translation: Eingehende Rechnungen, Proformarechnungen und Gutschriften speichern
+-
+    id: feat_9
+    translation: Erstellung von Dokumenten im PDF-Format
+-
+    id: feat_10
+    translation: Rechnungsstellung per E-Mail
+-
+    id: feat_11
+    translation: Rechnungen im PDF-Format exportieren
+-
+    id: feat_12
+    translation: RestFul API
+-
+    id: feat_13
+    translation: E-Mail-Unterstützung
+-
+    id: start_trial
+    translation: KAUFEN SIE AMY
+-
+    id: trial_per
+    translation: Probezeit beträgt 15 Tage
+-
+    id: trial_per_2
+    translation: Keine Kreditkarte erforderlich
+-
+    id: self_hosted
+    translation: Selbst gehostet
+-
+    id: sh_1
+    translation: Erleben Sie die volle AMY ERP/CRM Funktionalität, plus
+-
+    id: sh_2
+    translation: Direkte Kontrolle und die Fähigkeit, von überall aus zu funktionieren
+-
+    id: sh_3
+    translation: Maßgeschneiderte Plugins und zusätzliche Funktionen auf Anfrage
+-
+    id: sh_4
+    translation: 24/7 Telefon- und E-Mail-Support
+-
+    id: sh_5
+    translation: VERTRIEB KONTAKTIEREN
+-
+    id: faq
+    translation: Häufig gestellte Fragen
+-
+    id: faq1_q
+    translation: Ich habe bereits ein Konto, wie kann ich ein Upgrade durchführen?
+-
+    id: faq1_a
+    translation: Gehen Sie zum Amy Kundenportal und wählen Sie den für Sie passenden Tarif.
+-
+    id: faq2_q
+    translation: Kann ich weitere Benutzer zu meinem Abonnement hinzufügen?
+-
+    id: faq2_a
+    translation: Ja. Sie haben mehrere Möglichkeiten. Sie können Ihrem Abonnement jederzeit während des Abonnementzeitraums weitere Nutzer hinzufügen. Sie können sich über das Amy Kundenportal bei Ihrem Konto anmelden und weitere Benutzer hinzufügen oder den Vertrieb für ein Angebot kontaktieren. In jedem Fall werden die Kosten ab dem Datum des Angebots/Kaufs bis zum Ende des Abonnementzeitraums anteilig berechnet.
+-
+    id: faq3_q
+    translation: Was passiert, wenn ich mich entscheide, mein Abonnement nicht zu verlängern?
+-
+    id: faq3_a
+    translation: 14 Tage nach Ablauf Ihres Abonnements ist Ihr Amy ERP-Konto nicht mehr funktionsfähig. Sie können auf den kostenlosen Plan zurückstufen. Außerdem können Sie alle Ihre Daten und Dateien exportieren.
+-
+    id: faq4_q
+    translation: Was ist ein Benutzer?
+-
+    id: faq4_a
+    translation: Nutzer ist jeder einzelne Endnutzer (Person oder Maschine) des Kunden und/oder seiner verbundenen Unternehmen (einschließlich, aber nicht beschränkt auf deren Angestellte, Vertreter und Berater) mit Zugang zu den lizenzierten Materialien gemäß diesem Vertrag.
+-
+    id: faq5_q
+    translation: Was ist ein Nur-Lese-Benutzer?
+-
+    id: faq5_a
+    translation: Ein Nur-Lese-Benutzer ist ein Endpunkt-Benutzer mit Nur-Lese-Zugriff auf die lizenzierten Materialien im Rahmen dieser Vereinbarung. Dieser Benutzer kann keine Dokumente erstellen oder Dateien hochladen, hat aber Zugang zur Ansicht von Dateien und Dokumenten. Dies kann ein Steuerbeamter, ein Wirtschaftsprüfer oder jeder andere sein, der nur Leserechte benötigt.
+-
+    id: faq6_q
+    translation: Kann ich meine Daten von einem anderen ERP-Anbieter importieren?
+-
+    id: faq6_a
+    translation: Wir haben hierfür keine vorgefertigte Lösung. Bitte kontaktieren Sie unser Support-Team und wir werden versuchen, die beste Lösung für Sie zu finden.
+-
+    id: faq7_q
+    translation: Wo wird Amy ERP/CRM gehostet?
+-
+    id: faq7_a
+    translation: Derzeit werden wir auf unseren privaten Servern in Deutschland gehostet.
+-
+    id: faq8_q
+    translation: Was beinhaltet der Support?
+-
+    id: faq8_a
+    translation: Bei Premium hängt die Zeitspanne, in der für Ihre Support-Anfrage eine Dienstleistungsvereinbarung (SLA) gilt, von der Bedeutung der Anfrage selbst ab. Bei einem Notfall (Schweregrad 1) erhalten Sie 24 Stunden am Tag, 7 Tage die Woche Support, während andere Supportstufen 24 Stunden am Tag und 5 Tage die Woche erhalten.
+-
+    id: contacts
+    translation: Kontaktieren Sie uns
+-
+    id: ge
+    translation: ALLGEMEINE ANFRAGEN
+-
+    id: ge1
+    translation: Möchten Sie eine individuelle Demo sehen oder Hilfe bei der Suche nach dem richtigen Tarif erhalten?
+-
+    id: ge2
+    translation: Suchen Sie technische Hilfe?
+-
+    id: ge3
+    translation: Bitte kontaktieren Sie den Kundendienst, indem Sie einen Antrag auf unserer Amy Support-Seite stellen.
+-
+    id: ge4
+    translation: Kundendienst kontaktieren
+-
+    id: fname
+    translation: Vorname
+-
+    id: lname
+    translation: Nachname
+-
+    id: cname
+    translation: Name des Unternehmens
+-
+    id: cmail
+    translation: E-Mail des Unternehmens
+-
+    id: phone
+    translation: Telefon-Nummer
+-
+    id: msgplaceholder
+    translation: Wie können wir Ihnen helfen?
+-
+    id: msgtxt
+    translation: Durch die Angabe Ihrer Kontaktdaten erklären Sie sich damit einverstanden, dass Amy Sie per E-Mail und Telefon über seine Produkte, Dienstleistungen und Veranstaltungen informiert.
+-
+    id: gnt
+    translation: Kontakt aufnehmen
+- id: for_individuals
+  translation: For Individuals
+- id: for_small_companies
+  translation: For Small Companies
+- id: for_entreprises
+  translation: For Entreprises
+- id: get_more
+  translation: Get More
+- id: individuals
+  translation: Individual   
+- id: business
+  translation: Business
+- id: entreprises
+  translation: Entreprise
+- id: who_use
+  translation: Who is our product for?
+- id: who_use_description
+  translation: Our ERP system is focused on Logistic companies and companies providing storage and warehouse services.
+- id: individual_use_1
+  translation: Accounting for income and expenses
+- id: individual_use_2
+  translation: Keep your bills
+- id: individual_use_3
+  translation: Agreements
+- id: individual_use_4
+  translation: Budgeting
+- id: individual_use_5
+  translation: AI Chat Bot (*upcoming)
+- id: individual_use_6
+  translation: Mobile App for iOS, Android (*upcoming)
+- id: entrepreneurs_use_1
+  translation: Incoming and Outgoing Invoices
+- id: entrepreneurs_use_2
+  translation: Read access for your Auditor
+- id: entrepreneurs_use_3
+  translation: Agreements, Suppliers and Customers
+- id: entrepreneurs_use_4
+  translation: Profit and Loss Analysis 
+- id: entrepreneurs_use_5
+  translation: AI Chat Bot (*upcoming)
+- id: entrepreneurs_use_6
+  translation: Mobile App for iOS, Android (*upcoming)
+- id: logistic_and_warehouse_use_1
+  translation: Individual solution for your warehouse architecture
+- id: logistic_and_warehouse_use_2
+  translation: Solutions for Automation of receipt and shipment of goods
+- id: logistic_and_warehouse_use_3
+  translation: Notifications based on your key metrics
+- id: logistic_and_warehouse_use_4
+  translation:  AI Optimisation of storage and delivery of goods
+- id: logistic_and_warehouse_use_5
+  translation:  AI Chat Bot (*upcoming)
+- id: logistic_and_warehouse_use_6
+  translation:  Mobile App for iOS, Android (*upcoming)
+- id: entreprises_use_1
+  translation: Individual AI solutions based on your business processes
+- id: entreprises_use_2
+  translation: 24/7 Phone and Email Support
+- id: entreprises_use_3
+  translation: SAAS or Self-Hosted
+- id: entreprises_use_4
+  translation:  Source Code sharing. Full transparency and freedom to choose a team to expand functionality
+- id: entreprises_use_5
+  translation:  Unique optimisation solutions from our experts
+- id: entreprises_use_6
+  translation:  Mobile App for iOS, Android (*upcoming)
+- id: for_entrepreneurs
+  translation:  For Entrepreneurs
+- id: for_logistic_warehouse
+  translation:  For Logistic and Warehouse Companies

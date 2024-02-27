@@ -1,0 +1,51 @@
+{{ "<!-- BEGIN: Header -->" | safeHTML }}
+
+<header id="header" class="fixed-top ">
+  <div class="container d-flex align-items-center" >
+
+     <a href="/" class="logo me-auto" style="display:flex;"><img src="{{ `assets/img/logo512.png` | absURL }}"  alt="" class="img-fluid" style="margin-right:10px; margin-top:-5px; border-radius: 50%;"> <h1 class="logo me-auto"> {{ .Site.Title }}</h1></a>
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        {{ range site.Menus.main }}
+        {{ if .HasChildren }}
+        <li class="dropdown"><a href="{{ .URL | relLangURL }}"><span>{{ .Name }}</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            {{ range .Children }}
+            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            {{ end }}
+            </ul>
+          </li>
+        {{ else }}
+        <li><a class="nav-link scrollto {{ .Post }}" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+        {{ end }}
+        {{ end }}
+
+        <li class="dropdown">
+          <a href="#"> <i class="{{ .Site.Params.post }}"></i></a>
+          
+          <ul>
+            {{ range .Site.Menus.language }}
+            <li><a href="{{ .URL | absURL }}" ><i class="{{ .Post }}"></i>{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+          
+        <li class="dropdown login scrollto"><a href="#"><span>{{ i18n "signin" | safeHTML }}</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            {{ range .Site.Menus.button }}
+            <li><a href="{{ .URL }}" >{{ .Name }}</a></li>
+            {{ end }}
+            </ul>
+          </li>
+        <!-- <li><a class="getstarted scrollto" href="#contact">{{ i18n "get_started" | safeHTML }}</a></li> -->
+        <li><a class="getstarted scrollto" href="https://my.erpamy.com/signup">{{ i18n "get_started" | safeHTML }}</a></li>
+      </ul>
+
+
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+
+  </div>
+</header>
+
+{{ "<!-- Navigation -->" | safeHTML }}

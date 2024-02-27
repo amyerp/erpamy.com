@@ -1,0 +1,72 @@
+
+################## vietnamese navigation Language menu #################
+#[[language]]
+#name = "Deutsche"
+#url = "/de"
+#post = "flag flag-germany"
+#weight = 1
+
+
+#[[language]]
+#name = "Itaiano"
+#url = "/it"
+#post = "flag flag-italy"
+#weight = 2
+
+[[language]]
+name = "English"
+url = "/en"
+post = "flag flag-united-kingdom"
+weight = 3
+
+################## vietnamese navigation Button menu #################
+[[button]]
+name = "Đăng nhập Portal"
+url = "https://customers.erpamy.com/"
+weight = 1
+
+
+[[button]]
+name = "Đăng nhập Amy ERP/CRM"
+url = "https://erp.erpamy.com/"
+weight = 2
+
+################## vietnamese navigation. Main menu #################
+
+[[main]]
+name = "Trang đầu"
+url = "#hero"
+post = "active"
+weight = 1
+[[main]]
+name = "Về Chúng tôi"
+url = "#about"
+post = ""
+weight = 2
+[[main]]
+name = "Sản phẩm"
+identifier = "productmenu"
+url = "#portfolio"
+post = ""
+weight = 3
+hasChildren = false
+
+
+
+
+#[[main]]
+#name = "Thành viên"
+#url = "#team"
+#post = ""
+#weight = 4
+
+
+
+
+[[main]]
+name = "Liên lạc"
+url = "#contact"
+post = ""
+weight = 5
+
+

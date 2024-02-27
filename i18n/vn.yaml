@@ -1,0 +1,299 @@
+- id: site_title
+  translation: Amy ERP/CRM - phần mềm hoá đơn và kế toán
+- id: site_not_found
+  translation: Trang Không Tìm Thấy
+- id: site_desc
+  translation: Bạn đang tìm kiếm một phần mềm hoá đơn đơn giản? Amy ERP/CRM cho phép bạn xuất hoá đơn, ghi chú tín dụng và hóa đơn chiếu lệ, tạo thỏa thuận và giữ kế toán
+- id: site_desc_2
+  translation: Amy ERP/CRM phần mềm phát hành hóa đơn, ghi chú tín dụng và hóa đơn chiếu lệ, tạo thỏa thuận và ghi sổ kế toán
+- id: get_started
+  translation: Hãy bắt đầu
+- id: signin
+  translation: Đăng nhập
+- id: hero_h1
+  translation: ERP tốt nhất cho các công ty Hậu cần và Kho bãi
+- id: hero_h2
+  translation: Các giải pháp tùy chỉnh để tối đa hóa khả năng tương thích với các quy trình kinh doanh của bạn.
+- id: try_amy
+  translation: Yêu cầu bản thử nghiệm 
+- id: why_amy
+  translation: Về chúng tôi
+- id: about
+  translation: Amy không chỉ là một ERP - đó là một trợ lý kỹ thuật số sẽ giúp bạn xuất hóa đơn và thu thập thông tin về doanh nghiệp của bạn
+- id: about_1
+  translation: Chúng tôi coi nhiệm vụ của mình là giải phóng 100% cho bạn khỏi thói quen kế toán. Chúng tôi mong muốn bạn có thể dành toàn bộ thời gian để chăm sóc khách hàng, cải tiến sản phẩm và tối đa hóa lợi nhuận. Tất cả công việc kế toán sẽ do trợ lý kỹ thuật số Amy của bạn đảm nhận.
+- id: about_2
+  translation: Hôm nay chúng tôi cung cấp các giải pháp cho các doanh nghiệp, doanh nhân tư nhân và dịch giả tự do trong lĩnh vực
+- id: about_3
+  translation:  Kế toán
+- id: about_4
+  translation:  Hậu cần và kho bãi
+- id: about_5
+  translation:  Hồ sơ của khách hàng và nhà cung cấp
+- id: about_6
+  translation:  Thỏa thuận
+- id: about_7
+  translation: Thông tin về Thu nhập và Chi phí
+- id: about_8
+  translation: Mỗi chức năng của chúng tôi dựa trên các chi tiết cụ thể trong Quy trình kinh doanh của bạn. Vì vậy, chúng tôi tăng hiệu quả kinh doanh của bạn.
+- id: about_9
+  translation: Lợi nhuận trong kinh doanh là một chỉ số về danh tiếng của bạn và sự tin tưởng của khách hàng. Tăng niềm tin của khách hàng, tối đa hóa lợi nhuận của bạn với Amy
+- id: about_10
+  translation: hóa đơn điện tử
+- id: about_btn_invoice
+  translation: Tìm hiểu thêm
+- id: sudscribe_h3
+  translation: Đăng ký để cập nhật
+- id: sudscribe_p
+  translation: Đăng ký nhận cập nhật qua email của chúng tôi để cập nhật các ưu đãi của Amy, cũng như tin tức, quan điểm và lời khuyên mới nhất của chúng tôi.
+- id: name
+  translation: Tên
+- id: email
+  translation: Email
+- id: sudscribe
+  translation: Đặt mua
+- id: features
+  translation: Đặc trưng
+- id: accounting
+  translation: Kế toán
+- id: acc_1
+  translation: sổ cái chung
+- id: acc_2
+  translation: Hóa đơn, ghi chú tín dụng, Proforma
+- id: acc_3
+  translation: Tài sản cố định
+- id: acc_4
+  translation: Sao kê tài khoản ngân hàng
+- id: manegement
+  translation: Sự quản lý
+- id: man_1
+  translation: Thỏa thuận
+- id: man_2
+  translation: Đối tác và khách hàng
+- id: man_3
+  translation: Thu thập công văn đến/đi
+- id: hr
+  translation: HR
+- id: hr_1
+  translation: thẻ nhân viên
+- id: hr_2
+  translation: phiếu lương
+- id: automat
+  translation: Tự động hóa
+- id: automat_1
+  translation: Gửi hóa đơn qua email
+- id: automat_2
+  translation: Xuất hóa đơn dưới dạng PDF
+- id: automat_3
+  translation: Xuất sổ cái chung trong CSV
+- id: amy_pricing
+  translation: Định giá Amy
+- id: price_exp
+  translation: Mỗi tháng nếu thanh toán hàng năm
+- id: feats
+  translation: Đặc trưng
+- id: feat_1
+  translation: 1 Công ty
+- id: feat_2
+  translation: 1 Người dùng
+- id: feat_3
+  translation: 1 Người dùng chỉ đọc
+- id: feat_4
+  translation: 5 Gb Kho
+- id: feat_5
+  translation: Đối tác và khách hàng
+- id: feat_6
+  translation: Thỏa thuận thu thập
+- id: feat_7
+  translation: Phát hành hóa đơn, hóa đơn chiếu lệ và ghi chú tín dụng
+- id: feat_8
+  translation: Lưu trữ hóa đơn đến, hóa đơn chiếu lệ và ghi chú tín dụng
+- id: feat_9
+  translation: Tạo tài liệu trong PDF
+- id: feat_10
+  translation: Thanh toán qua email
+- id: feat_11
+  translation: Xuất hóa đơn sang PDF
+- id: feat_12
+  translation: RestFull API
+- id: feat_13
+  translation: Hỗ trợ email
+- id: start_trial
+  translation: DÙNG THỬ MIỄN PHÍ 
+- id: trial_per
+  translation: Thời gian dùng thử là 15 ngày
+- id: trial_per_2
+  translation: Không cần thẻ tín dụng
+- id: self_hosted
+  translation: Self-hosted
+- id: sh_1
+  translation: Có được trải nghiệm với đầy đủ chức năng AMY ERP/CRM, cộng với
+- id: sh_2
+  translation: Kiểm soát trực tiếp và khả năng chạy mọi nơi
+- id: sh_3
+  translation: Các plugin được thiết kế riêng và chức năng bổ sung theo yêu cầu
+- id: sh_4
+  translation: Hỗ trợ qua điện thoại và email 24/7
+- id: sh_5
+  translation: LIÊN HỆ BÁN HÀNG
+- id: faq
+  translation: Các câu hỏi thường gặp
+- id: faq1_q
+  translation: Tôi đã có tài khoản, làm cách nào để nâng cấp?
+- id: faq1_a
+  translation: Đi đến Amy Customer Portal, chọn kế hoạch phù hợp với bạn.
+- id: faq2_q
+  translation: Tôi có thể thêm nhiều người dùng hơn vào đăng ký của mình không?
+- id: faq2_a
+  translation: Đúng. Bạn có một vài lựa chọn. Bạn có thể thêm người dùng vào đăng ký của mình bất cứ lúc nào trong thời gian đăng ký. Bạn có thể đăng nhập vào tài khoản của mình qua Cổng thông tin khách hàng của Amy và thêm nhiều chỗ ngồi hơn hoặc liên hệ với bộ phận bán hàng để nhận báo giá. Trong cả hai trường hợp, chi phí sẽ được tính theo tỷ lệ kể từ ngày báo giá/mua hàng cho đến khi kết thúc thời gian đăng ký.
+- id: faq3_q
+  translation: Điều gì xảy ra nếu tôi quyết định không gia hạn đăng ký của mình?
+- id: faq3_a
+  translation: 14 ngày sau khi kết thúc đăng ký, Tài khoản Amy ERP của bạn sẽ không hoạt động nữa. Bạn sẽ có thể hạ cấp xuống gói Miễn phí. Ngoài ra, bạn có thể xuất tất cả dữ liệu và tệp của mình.
+
+- id: faq4_q
+  translation: Người dùng là gì?
+- id: faq4_a
+  translation: Người dùng có nghĩa là từng người dùng cuối (người hoặc máy) của Khách hàng và/hoặc Chi nhánh của Khách hàng (bao gồm nhưng không giới hạn ở nhân viên, đại lý và chuyên gia tư vấn của họ) có quyền truy cập vào Tài liệu được cấp phép dưới đây.
+- id: faq5_q
+  translation: Người dùng chỉ đọc là gì?
+- id: faq5_a
+  translation: Người dùng Chỉ đọc có nghĩa là Người dùng điểm cuối có quyền truy cập Chỉ đọc đối với Tài liệu được cấp phép dưới đây. Người dùng này không thể tạo tài liệu hoặc tải tệp lên, nhưng anh ta có quyền truy cập để xem tệp và tài liệu. Đó có thể là Cán bộ thuế hoặc Kiểm toán viên hoặc bất kỳ ai chỉ cần xem xét quyền
+- id: faq6_q
+  translation: Tôi có thể nhập dữ liệu của mình từ một nhà cung cấp ERP khác không?
+- id: faq6_a
+  translation: Chúng tôi không có giải pháp sẵn sàng cho việc này. Vui lòng liên hệ với nhóm hỗ trợ của chúng tôi và chúng tôi sẽ cố gắng tìm giải pháp thuận tiện nhất cho bạn.
+- id: faq7_q
+  translation: Amy ERP/CRM được lưu trữ ở đâu?
+- id: faq7_a
+  translation: Hiện tại chúng tôi được lưu trữ trên các máy chủ riêng của chúng tôi ở Đức.
+- id: faq8_q
+  translation: Hỗ trợ bao gồm những gì?
+- id: faq8_a
+  translation: Đối với Premium, số giờ mà yêu cầu hỗ trợ của bạn có SLA phụ thuộc vào Tác động hỗ trợ của chính yêu cầu đó. Thứ gì đó ở cấp độ Khẩn cấp (Mức độ nghiêm trọng 1) sẽ nhận được hỗ trợ 24/7, trong khi các cấp độ Tác động hỗ trợ khác sẽ nhận được 24/5.
+- id: contacts
+  translation: Liên hệ chúng tôi
+- id: ge
+  translation: CÂU HỎI CHUNG
+- id: ge1
+  translation: Bạn muốn xem bản trình diễn tùy chỉnh hoặc nhận trợ giúp tìm kế hoạch phù hợp?
+- id: ge2
+  translation: Tìm kiếm sự giúp đỡ kỹ thuật?
+- id: ge3
+  translation: Vui lòng liên hệ với bộ phận hỗ trợ khách hàng bằng cách gửi yêu cầu trên trang Hỗ trợ Amy của chúng tôi.
+- id: ge4
+  translation: Liên hệ hỗ trợ
+- id: fname
+  translation: Tên đầu tiên
+- id: lname
+  translation: Họ
+- id: cname
+  translation: Tên công ty
+- id: cmail
+  translation: Email công ty
+- id: phone
+  translation: Số điện thoại
+- id: msgplaceholder
+  translation: Làm thế nào chúng tôi có thể giúp bạn?
+- id: msgtxt
+  translation: Bằng cách cung cấp thông tin liên hệ của mình, bạn đồng ý rằng Amy có thể liên hệ với bạn qua email và điện thoại về sản phẩm, dịch vụ và sự kiện của Amy.
+- id: gnt
+  translation: Liên lạc
+- id: for_individuals
+  translation: For Individual Use
+- id: for_small_companies
+  translation: For Small Companies
+- id: for_entreprises
+  translation: For Entreprises
+- id: get_more
+  translation: Nhận thêm
+- id: individuals
+  translation: For Individual Use
+- id: business
+  translation: Business
+- id: entreprises
+  translation: Entreprise
+- id: who_use
+  translation: Sản phẩm của chúng tôi dành cho ai?
+- id: who_use_description
+  translation: Hệ thống ERP của chúng tôi tập trung vào các công ty Logistics và các công ty cung cấp dịch vụ lưu trữ và kho bãi.
+- id: individual_use_1
+  translation: Kế toán thu nhập và chi phí
+- id: individual_use_2
+  translation: Giữ hóa đơn của bạn
+- id: individual_use_3
+  translation: Thỏa thuận
+- id: individual_use_4
+  translation: Lập ngân sách
+- id: individual_use_5
+  translation: AI Chat Bot (*upcoming)
+- id: individual_use_6
+  translation: Mobile App for iOS, Android (*upcoming)
+- id: entrepreneurs_use_1
+  translation: Hóa đơn đầu vào và đầu ra
+- id: entrepreneurs_use_2
+  translation: Quyền truy cập đọc cho Kiểm toán viên của bạn
+- id: entrepreneurs_use_3
+  translation: Thỏa thuận, Nhà cung cấp và Khách hàng
+- id: entrepreneurs_use_4
+  translation: Phân tích lãi lỗ
+- id: entrepreneurs_use_5
+  translation: AI Chat Bot (*upcoming)
+- id: entrepreneurs_use_6
+  translation: Mobile App for iOS, Android (*upcoming)
+- id: logistic_and_warehouse_use_1
+  translation: Giải pháp riêng cho kiến ​​trúc nhà kho của bạn
+- id: logistic_and_warehouse_use_2
+  translation: Giải pháp Tự động hóa nhận và vận chuyển hàng hóa
+- id: logistic_and_warehouse_use_3
+  translation: Thông báo dựa trên số liệu chính của bạn
+- id: logistic_and_warehouse_use_4
+  translation:  AI Tối ưu hóa lưu kho và vận chuyển hàng hóa
+- id: logistic_and_warehouse_use_5
+  translation:  AI Chat Bot (*upcoming)
+- id: logistic_and_warehouse_use_6
+  translation:  Mobile App for iOS, Android (*upcoming)
+- id: entreprises_use_1
+  translation: Các giải pháp AI riêng lẻ dựa trên quy trình kinh doanh của bạn
+- id: entreprises_use_2
+  translation: Hỗ trợ qua điện thoại và email 24/7
+- id: entreprises_use_3
+  translation: SAAS or Self-Hosted
+- id: entreprises_use_4
+  translation:  Chia sẻ mã nguồn. Hoàn toàn minh bạch và tự do lựa chọn một nhóm để mở rộng chức năng
+- id: entreprises_use_5
+  translation:  Các giải pháp tối ưu hóa độc đáo từ các chuyên gia của chúng tôi
+- id: entreprises_use_6
+  translation:  Mobile App for iOS, Android (*upcoming)
+- id: for_entrepreneurs
+  translation:  Dành cho doanh nhân
+- id: for_logistic_warehouse
+  translation:  Dành cho Công ty Logistics và Kho bãi
+- id: we_offer
+  translation:  chúng tôi cung cấp
+- id: we_offer_description
+  translation:  Chúng tôi cố gắng làm cho sản phẩm của mình đơn giản nhất có thể. Đơn giản đối với chúng tôi là một giao diện trực quan không cần thời gian để tìm hiểu
+- id: all
+  translation:  Tất cả
+- id: invoices
+  translation:  Hoá đơn
+- id: usefull_links
+  translation:  Liên kết
+- id: home
+  translation:  Trang đầu
+- id: about_us
+  translation:  Về chúng tôi
+- id: terms_of_use
+  translation:  Điều khoản sử dụng
+- id: career
+  translation:  Nghề nghiệp
+- id: privacy
+  translation:  Chính sách bảo mật
+- id: our_service
+  translation:  Dịch vụ của chúng tôi
+- id: for_logistic  
+  translation:  Công ty logistics và kho hàng
+- id: for_entreprises 
+  translation:  Doanh nghiệp
+- id: social 
+  translation:  Mạng xã hội

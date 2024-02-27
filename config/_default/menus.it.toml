@@ -1,0 +1,74 @@
+################## Itaiano navigation Language menu #################
+[[language]]
+name = "English"
+url = "/en"
+post = "flag flag-united-kingdom"
+weight = 1
+
+
+[[language]]
+name = "Deutsche"
+url = "/de"
+post = "flag flag-germany"
+weight = 2
+
+[[language]]
+name = "Vietnamese"
+url = "/vn"
+post = "flag flag-vietnam"
+weight = 3
+
+################## Itaiano navigation Button menu #################
+[[button]]
+name = "Accedi Portal"
+url = "https://customers.erpamy.com/"
+weight = 1
+
+
+[[button]]
+name = "Accedi Amy ERP/CRM"
+url = "https://erp.erpamy.com/"
+weight = 2
+
+
+################## Itaiano navigation. Main menu #################
+
+[[main]]
+name = "Casa"
+url = "#hero"
+post = "active"
+weight = 1
+
+[[main]]
+name = "About Us"
+url = "#about"
+post = ""
+weight = 2
+
+[[main]]
+name = "Prodotto"
+identifier = "productmenu"
+url = "#portfolio"
+post = ""
+weight = 3
+hasChildren = false
+
+
+
+
+
+
+
+
+
+
+[[main]]
+name = "Team"
+url = "#team"
+post = ""
+weight = 5
+[[main]]
+name = "Contattaci"
+url = "#contact"
+post = ""
+weight = 6

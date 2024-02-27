@@ -1,0 +1,40 @@
+
+################################ Deutsche Language ######################
+[de]
+languageName = "Deutsche"
+languageCode = "de"
+post = "flag flag-germany"
+weight = 1
+copyright = "&copy; 2023 • Amy ERP/CRM. Alle Rechte vorbehalten "
+languageCodeSeo = "de-DE"
+company = "MyMates GmbH"
+
+############################### English Language ######################
+[en]
+languageName = "English"
+languageCode = "en-us"
+post = "flag flag-united-kingdom"
+weight = 1
+copyright = "&copy; 2023 • Amy ERP/CRM. All Rights Reserved"
+languageCodeSeo = "en-GB"
+company = "MyMates GmbH"
+
+################################ Itaiano Language ######################
+[it]
+languageName = "Itaiano"
+languageCode = "it"
+post = "flag flag-italy"
+weight = 1
+copyright = "&copy; 2023 • Amy ERP/CRM. Tutti i diritti riservati"
+languageCodeSeo = "it-IT"
+company = "MyMates GmbH"
+
+################################ Vietnamese Language ######################
+[vn]
+languageName = "Vietnamese"
+languageCode = "vn"
+post = "flag flag-vietnam"
+weight = 1
+copyright = "&copy; 2023 • Amy ERP/CRM. Quyền sở hữu"
+languageCodeSeo = "vn-VN"
+company = "MyMates GmbH"

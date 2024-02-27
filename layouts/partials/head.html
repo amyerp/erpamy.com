@@ -1,0 +1,141 @@
+<head>
+  <meta charset="utf-8">
+  {{ hugo.Generator }}
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <script src="https://www.googleoptimize.com/optimize.js?id=OPT-WXLGL7P"></script>
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
+  <title>{{ i18n "site_title" | safeHTML }}</title>
+  <link rel="canonical" href="{{ absURL "" }}  "/>
+  <meta name="description" content="{{ i18n `site_desc` | safeHTML }}"/>
+  <meta property="og:locale" content="{{ .Site.Params.languageCodeSeo }}"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="{{ i18n `site_title` | safeHTML }}"/>
+	<meta property="og:description" content="{{ i18n `site_desc_2` | safeHTML }}"/>
+	<meta property="og:url" content="{{ absURL "" }}"/>
+	<meta property="og:site_name" content="{{ .Site.Title }}"/>
+	<meta property="article:modified_time" content="#DATE"/>
+	<meta property="og:image" content="{{ `assets/img/logo512.png` | absURL }}"/>
+
+  <script type="application/ld+json">
+  {
+   "@context":"http://schema.org",
+   "@graph":[
+      {
+         "@type":"Organization",
+         "@id":"{{ absURL "" }}#organization",
+         "name":"{{ .Site.Params.company }}",
+         "url":"{{ absURL "" }}",
+         "logo":{
+            "@type":"ImageObject",
+            "@id":"{{ absURL "" }}#logo",
+            "inLanguage":"{{ .Site.Params.languageCodeSeo }}",
+            "url":"{{ `assets/img/logo512.png` | absURL }}",
+            "contentUrl":"{{ `assets/img/logo512.png` | absURL }}",
+            "width":512,
+            "height":512,
+            "caption":"{{ .Site.Params.company }}"
+         },
+         "image":{
+            "@id":"{{ absURL "" }}#logo"
+         }
+      },
+      {
+         "@type":"WebSite",
+         "@id":"{{ absURL "" }}#website",
+         "url":"{{ absURL "" }}",
+         "name":"amy",
+         "description":"{{ i18n `site_desc_2` | safeHTML }}",
+         "publisher":{
+            "@id":"{{ absURL "" }}#organization"
+         },
+         "inLanguage":"{{ .Site.Params.languageCodeSeo }}"
+      },
+      {
+         "@type":"ImageObject",
+         "@id":"{{ absURL "" }}#primaryimage",
+         "inLanguage":"{{ .Site.Params.languageCodeSeo }}",
+         "url":"{{ `assets/img/logo512.png` | absURL }}",
+         "contentUrl":"{{ `assets/img/logo512.png` | absURL }}",
+         "width":512,
+         "height":512,
+         "caption":"{{ i18n `site_desc_3` | safeHTML }}"
+      },
+      {
+         "@type":"WebPage",
+         "@id":"{{ absURL "" }}#webpage",
+         "url":"{{ absURL "" }}",
+         "name":"{{ i18n `site_title` | safeHTML }}",
+         "isPartOf":{
+            "@id":"{{ absURL "" }}#website"
+         },
+         "about":{
+            "@id":"{{ absURL "" }}#organization"
+         },
+         "primaryImageOfPage":{
+            "@id":"{{ absURL "" }}#primaryimage"
+         },
+         "datePublished":"2023-03-03T10:00:00+00:00",
+         "dateModified":"#DATE",
+         "description":"{{ i18n `site_desc_2` | safeHTML }}",
+         "breadcrumb":{
+            "@id":"{{ absURL "" }}#breadcrumb"
+         },
+         "inLanguage":"{{ .Site.Params.languageCodeSeo }}",
+         "potentialAction":[
+            {
+               "@type":"ReadAction",
+               "target":[
+                  "{{ absURL "" }}"
+               ]
+            }
+         ]
+      },
+      {
+         "@type":"BreadcrumbList",
+         "@id":"{{ absURL "" }}#breadcrumb",
+         "itemListElement":[
+            {
+               "@type":"ListItem",
+               "position":1,
+               "name":"{{ i18n `home_page` | safeHTML }}"
+            }
+         ]
+      }
+   ]
+}
+
+  </script>
+
+
+{{ "<!-- Favicons -->" | safeHTML }}
+  <link href="{{ `assets/img/favicon.ico` | absURL }}" rel="icon" >
+  <link href="{{ `assets/img/logo512.png` | absURL }}" rel="apple-touch-icon">
+
+  {{ "<!-- Google Fonts -->" | safeHTML }}
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  {{ "<!-- Vendor CSS Files -->" | safeHTML }}
+  <link href="{{ `assets/vendor/aos/aos.css` | absURL }}" rel="stylesheet">
+  <link  href="{{ `assets/vendor/bootstrap/css/bootstrap.min.css` | absURL }}" rel="stylesheet">
+  <link  href="{{ `assets/vendor/bootstrap-icons/bootstrap-icons.css` | absURL }}" rel="stylesheet">
+  <link  href="{{ `assets/vendor/boxicons/css/boxicons.min.css` | absURL }}" rel="stylesheet">
+  <link  href="{{ `assets/vendor/glightbox/css/glightbox.min.css` | absURL }}" rel="stylesheet">
+  <link  href="{{ `assets/vendor/remixicon/remixicon.css` | absURL }}" rel="stylesheet">
+  <link  href="{{ `assets/vendor/swiper/swiper-bundle.min.css` | absURL }}" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"rel="stylesheet" />
+
+  {{ "<!-- Template Main CSS File -->" | safeHTML }}
+  <link  href="{{ `assets/css/style.css` | absURL }}" rel="stylesheet">
+
+  {{ "<!-- Google tag (gtag.js) -->" | safeHTML }}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SM24G6B7NK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SM24G6B7NK');
+</script>
+</head>

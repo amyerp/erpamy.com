@@ -1,0 +1,23 @@
+{{ "<!-- Vendor JS Files -->" | safeHTML }}
+<script  src="{{ `assets/vendor/aos/aos.js` | absURL }}"></script>
+<script  src="{{ `assets/vendor/bootstrap/js/bootstrap.bundle.min.js` | absURL }}"></script>
+<script  src="{{ `assets/vendor/glightbox/js/glightbox.min.js` | absURL }}"></script>
+<script  src="{{ `assets/vendor/isotope-layout/isotope.pkgd.min.js` | absURL }}"></script>
+<script  src="{{ `assets/vendor/swiper/swiper-bundle.min.js` | absURL }}"></script>
+<script  src="{{ `assets/vendor/waypoints/noframework.waypoints.js` | absURL }}"></script>
+<script  src="{{ `assets/vendor/php-email-form/validate.js` | absURL }}"></script>
+<script  src="{{ `assets/vendor/jquery.min.js` | absURL }}"></script>
+<script src="https://support.erpamy.com/assets/chat/chat.min.js"></script>
+<script>
+$(function() {
+  new ZammadChat({
+    background: '#36507d',
+    fontSize: '12px',
+    chatId: 1,
+    show: false
+  });
+});
+</script>
+
+{{ "<!-- Template Main JS File -->" | safeHTML }}
+<script  src="{{ `assets/js/main.js` | absURL }}"></script>

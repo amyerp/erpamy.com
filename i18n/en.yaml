@@ -1,0 +1,298 @@
+- id: site_title
+  translation: Amy ERP/CRM - invoicing and accounting software
+- id: site_not_found
+  translation: Page Not Found
+- id: site_desc
+  translation: Are you looking for simple invoicing software? Amy ERP/CRM allows you to issue invoice, credit notes and proforma invoices, generate agreements and keep accounting
+- id: site_desc_2
+  translation: Amy ERP/CRM software for issue invoices, credit notes and proforma invoices, generate agreements and keep accounting
+- id: get_started
+  translation: Get Started
+- id: signin
+  translation: Sign In
+- id: hero_h1
+  translation: Best ERP  for Logistic and Warehouses companies
+- id: hero_h2
+  translation:  Customized solutions to maximize compatibility with your business processes.
+- id: try_amy
+  translation: Request a Demo
+- id: why_amy
+  translation: About Us
+- id: about
+  translation: Amy is not just an ERP - it is a digital assistant who will help you issue invoices and collecting information about your business
+- id: about_1
+  translation: We see it as our mission to free you from the accounting routine by 100%. We want you to be able to devote all your time to taking care of your customers, improving your product and maximizing profits. All accounting will be taken care of by your digital assistant Amy.
+- id: about_2
+  translation: Today we offer solutions for businesses, private entrepreneurs and freelancers in the field of
+- id: about_3
+  translation:  Accounting
+- id: about_4
+  translation:  Logistics and Warehouse
+- id: about_5
+  translation:  Records of Customers and Suppliers
+- id: about_6
+  translation:  Agreements
+- id: about_7
+  translation: Information about Income and Expenses
+- id: about_8
+  translation: Each of our functionalities based on specifics of your Business Processes. Thus, we increase the efficiency of your business.
+- id: about_9
+  translation: Profit in business is an indicator of your reputation and the trust of your customers. Increase your customer confidence, maximize your profits with Amy
+- id: about_10
+  translation: E-mail invoicing
+- id: about_btn_invoice
+  translation: Learn More
+- id: sudscribe_h3
+  translation: Subscribe for updates
+- id: sudscribe_p
+  translation: Subscribe to our email updates to keep up to date on Amy offers, as well as our latest news, views and advice.
+- id: name
+  translation: Name
+- id: email
+  translation: Email
+- id: sudscribe
+  translation: Subscribe
+- id: features
+  translation: Features
+- id: accounting
+  translation: Accounting
+- id: acc_1
+  translation: General Ledger
+- id: acc_2
+  translation: Invoices, Credit notes, Proforma
+- id: acc_3
+  translation: Fixed assets
+- id: acc_4
+  translation: Bank account Statements
+- id: manegement
+  translation: Management
+- id: man_1
+  translation: Agreements
+- id: man_2
+  translation: Counterparties and Customers
+- id: man_3
+  translation: Collecting of incoming/outgoing Correspondence
+- id: hr
+  translation: HR
+- id: hr_1
+  translation: Employee Cards
+- id: hr_2
+  translation: Payslip
+- id: automat
+  translation: Automation
+- id: automat_1
+  translation: Emailing invoices
+- id: automat_2
+  translation: Export invoices in PDF
+- id: automat_3
+  translation: Export General Ledger in CSV
+- id: amy_pricing
+  translation: Amy Pricing
+- id: price_exp
+  translation: per month if billing annually
+- id: feats
+  translation: features
+- id: feat_1
+  translation: 1 Company
+- id: feat_2
+  translation: 1 User
+- id: feat_3
+  translation: 1 Read Only User
+- id: feat_4
+  translation: 5 Gb Storage
+- id: feat_5
+  translation: Counterparties and Customers
+- id: feat_6
+  translation: Collecting Agreements
+- id: feat_7
+  translation: Issue Invoices, Proforma Invoices and Credit Notes
+- id: feat_8
+  translation: Store Incoming Invoices, Proforma Invoices and Credit Notes
+- id: feat_9
+  translation: Generation documents in PDF
+- id: feat_10
+  translation: Email billing
+- id: feat_11
+  translation: Export invoices to PDF
+- id: feat_12
+  translation: RestFull API
+- id: feat_13
+  translation: Email support
+- id: start_trial
+  translation: TRY FREE TRIAL
+- id: trial_per
+  translation: Trial Period is 15 days
+- id: trial_per_2
+  translation: No Credit card required
+- id: self_hosted
+  translation: Self-hosted
+- id: sh_1
+  translation: Get experiance with full AMY ERP/CRM functionality, plus
+- id: sh_2
+  translation: Direct control and ability to run anywhere
+- id: sh_3
+  translation: Tailor made plugins and extra functionality under request
+- id: sh_4
+  translation: 24/7 Phone and Email Support
+- id: sh_5
+  translation: CONTACT SALES
+- id: faq
+  translation: Frequently Asked Questions
+- id: faq1_q
+  translation: I already have an account, how do I upgrade?
+- id: faq1_a
+  translation: Head over to Amy Customer Portal, choose the plan that is right for you.
+- id: faq2_q
+  translation: Can I add more users to my subscription?
+- id: faq2_a
+  translation: Yes. You have a few options. You can add users to your subscription any time during the subscription period. You can log in to your account via the Amy Customer Portal and add more seats or contact sales for a quote. In either case, the cost will be prorated from the date of quote/purchase through the end of the subscription period.
+- id: faq3_q
+  translation: What happens if I decide not to renew my subscription?
+- id: faq3_a
+  translation: 14 days after the end of your subscription, your Amy ERP Account will not be functional anymore. You will be able to downgrade to Free plan. Also you are able to export all your data and files.
+- id: faq4_q
+  translation: What is user?
+- id: faq4_a
+  translation: User means each individual end-user (person or machine) of Customer and/or its Affiliates (including, without limitation, employees, agents, and consultants thereof) with access to the Licensed Materials hereunder.
+- id: faq5_q
+  translation: What is Read Only user?
+- id: faq5_a
+  translation: Read Only User means end point User with Read Only access to the Licensed Materials hereunder. This User can not create documents or upload files, but he has access to view files and documents. It can be Tax officer or auditor or anybody how need in review only rights
+- id: faq6_q
+  translation: Can I import my data from another ERP provider?
+- id: faq6_a
+  translation: We do not have a ready solution for this. Please contact our support team and we will try to find the most convenient solution for you.
+- id: faq7_q
+  translation: Where is Amy ERP/CRM hosted?
+- id: faq7_a
+  translation: Currently we are hosted on our private servers in the Germany.
+- id: faq8_q
+  translation: What does support entail?
+- id: faq8_a
+  translation: For Premium, the hours in which your support request has SLA is dependent upon the Support Impact of the request itself. Something at Emergency (Severity 1) level would receive support 24/7, whereas other Support Impact levels would receive 24/5.
+- id: contacts
+  translation: Contact Us
+- id: ge
+  translation: GENERAL INQUIRIES
+- id: ge1
+  translation: Want to see a custom demo or get help finding the right plan?
+- id: ge2
+  translation: Looking for technical help?
+- id: ge3
+  translation: Please contact customer support by submitting a case on our Amy Support page.
+- id: ge4
+  translation: Contact Support
+- id: fname
+  translation: First Name
+- id: lname
+  translation: Last Name
+- id: cname
+  translation: Company Name
+- id: cmail
+  translation: Company Email
+- id: phone
+  translation: Phone number
+- id: msgplaceholder
+  translation: How can we help you?
+- id: msgtxt
+  translation: By providing your contact information, you agree that Amy may contact you via email and telephone about its product, services and events.
+- id: gnt
+  translation: Get in Touch
+- id: for_individuals
+  translation: For Individual Use
+- id: for_small_companies
+  translation: For Small Companies
+- id: for_entreprises
+  translation: For Entreprises
+- id: get_more
+  translation: Get More
+- id: individuals
+  translation: For Individual Use
+- id: business
+  translation: Business
+- id: entreprises
+  translation: Entreprise
+- id: who_use
+  translation: Who is our product for?
+- id: who_use_description
+  translation: Our ERP system is focused on Logistic companies and companies providing storage and warehouse services.
+- id: individual_use_1
+  translation: Accounting for income and expenses
+- id: individual_use_2
+  translation: Keep your bills
+- id: individual_use_3
+  translation: Agreements
+- id: individual_use_4
+  translation: Budgeting
+- id: individual_use_5
+  translation: AI Chat Bot (*upcoming)
+- id: individual_use_6
+  translation: Mobile App for iOS, Android (*upcoming)
+- id: entrepreneurs_use_1
+  translation: Incoming and Outgoing Invoices
+- id: entrepreneurs_use_2
+  translation: Read access for your Auditor
+- id: entrepreneurs_use_3
+  translation: Agreements, Suppliers and Customers
+- id: entrepreneurs_use_4
+  translation: Profit and Loss Analysis
+- id: entrepreneurs_use_5
+  translation: AI Chat Bot (*upcoming)
+- id: entrepreneurs_use_6
+  translation: Mobile App for iOS, Android (*upcoming)
+- id: logistic_and_warehouse_use_1
+  translation: Individual solution for your warehouse architecture
+- id: logistic_and_warehouse_use_2
+  translation: Solutions for Automation of receipt and shipment of goods
+- id: logistic_and_warehouse_use_3
+  translation: Notifications based on your key metrics
+- id: logistic_and_warehouse_use_4
+  translation:  AI Optimisation of storage and delivery of goods
+- id: logistic_and_warehouse_use_5
+  translation:  AI Chat Bot (*upcoming)
+- id: logistic_and_warehouse_use_6
+  translation:  Mobile App for iOS, Android (*upcoming)
+- id: entreprises_use_1
+  translation: Individual AI solutions based on your business processes
+- id: entreprises_use_2
+  translation: 24/7 Phone and Email Support
+- id: entreprises_use_3
+  translation: SAAS or Self-Hosted
+- id: entreprises_use_4
+  translation:  Source Code sharing. Full transparency and freedom to choose a team to expand functionality
+- id: entreprises_use_5
+  translation:  Unique optimisation solutions from our experts
+- id: entreprises_use_6
+  translation:  Mobile App for iOS, Android (*upcoming)
+- id: for_entrepreneurs
+  translation:  For Entrepreneurs
+- id: for_logistic_warehouse
+  translation:  For Logistic and Warehouse Companies
+- id: we_offer
+  translation:  what do we offer
+- id: we_offer_description
+  translation:  We strive to make our product as simple as possible. Simple for us is an intuitive interface that does not require time to learn
+- id: all
+  translation:  All
+- id: invoices
+  translation:  Invoices
+- id: usefull_links
+  translation:  Useful Links
+- id: home
+  translation:  Home
+- id: about_us
+  translation:  About us
+- id: terms_of_use
+  translation:  Terms of use
+- id: career
+  translation:  Career
+- id: privacy
+  translation:  Privacy Policy
+- id: our_service
+  translation:  Our Services
+- id: for_logistic  
+  translation:  For Logistic and Warehouse Companies
+- id: for_entreprises 
+  translation:  For Entreprises
+- id: social 
+  translation:  Our Social Networks

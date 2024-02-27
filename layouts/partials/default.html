@@ -1,0 +1,607 @@
+{{ "<!-- ======= Hero Section ======= -->" | safeHTML }}
+<section id="hero" class="d-flex align-items-center">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+        <h1>{{ i18n "hero_h1" | safeHTML }}</h1>
+        <h2>{{ i18n "hero_h2" | safeHTML }}</h2>
+        <div class="d-flex justify-content-center justify-content-lg-start">
+          <a href="https://my.erpamy.com/signup" class="btn-get-started scrollto" style="margin-right: 16px;background: #f94007">{{ i18n "start_trial" | safeHTML }}</a>
+          <a href="#contact" class="btn-get-started scrollto">{{ i18n "try_amy" | safeHTML }}</a>
+        </div>
+      </div>
+      <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+
+        <img src="{{ `assets/img/amy_front.png` | absURL }}" class="img-fluid animated" alt="">
+
+      </div>
+    </div>
+  </div>
+
+</section>{{ "<!-- End Hero -->" | safeHTML }}
+
+<main id="main">
+
+{{ "<!-- ======= Clients Section ======= -->" | safeHTML }}
+
+
+  {{ "<!-- ======= About Us Section ======= -->" | safeHTML }}
+  <section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>{{ i18n "why_amy" | safeHTML }}</h2>
+      </div>
+
+
+
+
+          <div class="row content">
+          <div class="col-sm-6 ">
+            <ul class="">
+              <li>{{ i18n "about_1" | safeHTML }}</li>
+              <li>{{ i18n "about_2" | safeHTML }}</li>
+              <li><span class="ri-check-double-line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i18n "about_3" | safeHTML }}</li>
+              <li><span class="ri-check-double-line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i18n "about_4" | safeHTML }}</li>
+              <li><span class="ri-check-double-line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i18n "about_5" | safeHTML }}</li>
+              <li><span class="ri-check-double-line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i18n "about_6" | safeHTML }}</li>
+            </ul>
+        </div>
+        <div class="col-sm-6 ">
+          <ul>
+            <li>{{ i18n "about_8" | safeHTML }}</li>
+            <li>{{ i18n "about_9" | safeHTML }}</li>
+
+          </ul>
+        <!--  <a href="{{ `about_us` | absURL | relLangURL }}" target="_blank" class="btn-learn-more">{{ i18n "about_btn_invoice" | safeHTML }}</a> -->
+        </div>
+
+        </div>
+
+
+    </div>
+  </section>
+  {{ "<!-- =======  End About Us Section ======= -->" | safeHTML }}
+
+  {{ "<!-- =======  Subscribe Section ======= -->" | safeHTML }}
+  <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>{{ i18n "sudscribe_h3" | safeHTML }}</h3>
+            <p>{{ i18n "sudscribe_p" | safeHTML }}</p>
+            <div class="row">
+              <div class="form-group col-md-3" >
+                <label for="name" class="sublabel">{{ i18n "name" | safeHTML }}</label>
+                <input type="text" name="name" class="form-control" id="subname" required>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="name" class="sublabel">{{ i18n "email" | safeHTML }}</label>
+                <input type="text" name="name" class="form-control" id="subemail" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-9 sublabel " id="subanswer">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#" id="subscribebtn">{{ i18n "sudscribe" | safeHTML }}</a>
+          </div>
+        </div>
+
+
+      </div>
+
+
+  </section>{{ "<!-- End Subscribe Section -->" | safeHTML }}
+
+  {{ "<!-- ======= Who Our Product for Section ======= -->" | safeHTML }}
+  <section id="who_use" class="pricing">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>{{ i18n "who_use" | safeHTML }}</h2>
+        <p class="text-center">{{ i18n "who_use_description" | safeHTML }}:</p>
+      </div>
+
+
+
+      <div class="row">
+
+        <!-- <div class="col-sm-6 col-lg-3 mt-6 mt-lg-0 for-individuals" data-aos="fade-up" data-aos-delay="100">
+          <div class="box who_use" onclick='window.location.href="{{ `for_individuals` | absURL | relLangURL }}"'>
+            <h3 class="text-center">{{ i18n "for_individuals" | safeHTML }}</h3>
+
+            <ul>
+
+              <li><i class="bx bx-check"></i> {{ i18n "individual_use_1" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "individual_use_2" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "individual_use_3" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "individual_use_4" | safeHTML }} </li>
+              <li><i class="bx bx-check"></i> {{ i18n "individual_use_5" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "individual_use_6" | safeHTML }}</li>
+
+            </ul>
+
+          </div>
+        </div> -->
+        <!-- <div class="col-sm-6 col-lg-3 mt-6 mt-lg-0 for_entrepreneurs" data-aos="fade-up" data-aos-delay="100">
+          <div class="box who_use" onclick='window.location.href="{{ `for_entrepreneurs` | absURL | relLangURL }}"'>
+            <h3 class="text-center">{{ i18n "for_entrepreneurs" | safeHTML }}</h3>
+
+            <ul>
+
+              <li><i class="bx bx-check"></i> {{ i18n "entrepreneurs_use_1" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "entrepreneurs_use_2" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "entrepreneurs_use_3" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "entrepreneurs_use_4" | safeHTML }} </li>
+              <li><i class="bx bx-check"></i> {{ i18n "entrepreneurs_use_5" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "entrepreneurs_use_6" | safeHTML }}</li>
+
+            </ul>
+
+          </div>
+        </div> -->
+
+
+
+
+
+
+        <div class="col-sm-6  mt-6 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="box who_use" >
+            <h3 class="text-center">{{ i18n "for_logistic_warehouse" | safeHTML }}</h3>
+
+            <ul>
+
+              <li><i class="bx bx-check"></i> {{ i18n "logistic_and_warehouse_use_1" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "logistic_and_warehouse_use_2" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "logistic_and_warehouse_use_3" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "logistic_and_warehouse_use_4" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "logistic_and_warehouse_use_5" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "logistic_and_warehouse_use_6" | safeHTML }}</li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="col-sm-6  mt-6 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="box who_use" >
+            <h3 class="text-center">{{ i18n "for_entreprises" | safeHTML }}</h3>
+
+            <ul>
+
+              <li><i class="bx bx-check"></i> {{ i18n "entreprises_use_1" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "entreprises_use_2" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "entreprises_use_3" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "entreprises_use_4" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "entreprises_use_5" | safeHTML }}</li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>{{ "<!-- End Who Our Product For Section -->" | safeHTML }}
+
+{{ "<!-- ======= PORTFOLIO Section ======= -->" | safeHTML }}
+<section id="portfolio" class="portfolio">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>{{ i18n "we_offer" | safeHTML }}</h2>
+      <p>{{ i18n "we_offer_description" | safeHTML }}</p>
+    </div>
+
+    <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+      <li data-filter="*">{{ i18n "all" | safeHTML }}</li>
+      <li data-filter=".filter-amy" class="filter-active">Amy</li>
+      <li data-filter=".filter-invoice">{{ i18n "invoices" | safeHTML }}</li>
+      <li data-filter=".filter-inventory">Inventory</li>
+
+    </ul>
+
+    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+      <div class="col-md-6 portfolio-item filter-amy">
+        <div class="portfolio-img"><img src="{{`assets/img/portfolio/amy/company_profile.png` | absURL}}" class="img-fluid" alt=""></div>
+        <div class="portfolio-info">
+          <h4>Amy 1</h4>
+          <p>Amy</p>
+          <a href="{{`assets/img/portfolio/amy/company_profile.png` | absURL}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class=" col-md-6 portfolio-item filter-amy">
+        <div class="portfolio-img"><img src="{{`assets/img/portfolio/amy/create_invoice.png` | absURL}}" class="img-fluid" alt=""></div>
+        <div class="portfolio-info">
+          <h4>Amy 2</h4>
+          <p>Amy</p>
+          <a href="{{`assets/img/portfolio/amy/create_invoice.png` |absURL }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 portfolio-item filter-amy">
+        <div class="portfolio-img"><img src="{{`assets/img/portfolio/amy/dashboard.jpg` | absURL }}" class="img-fluid" alt=""></div>
+        <div class="portfolio-info">
+          <h4>Amy 3</h4>
+          <p>Amy</p>
+          <a href="{{`assets/img/portfolio/amy/dashboard.jpg` | absURL }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 portfolio-item filter-amy">
+        <div class="portfolio-img"><img src="{{`assets/img/portfolio/amy/invoices.png` | absURL}}" class="img-fluid" alt=""></div>
+        <div class="portfolio-info">
+          <h4>Amy 4</h4>
+          <p>Amy</p>
+          <a href="{{`assets/img/portfolio/amy/invoices.png` | absURL}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 portfolio-item filter-invoice">
+        <div class="portfolio-img"><img src="{{`assets/img/portfolio/invoices/05.png` | absURL}}" class="img-fluid" alt=""></div>
+        <div class="portfolio-info">
+          <h4>Invoice 1</h4>
+          <p>Invoice</p>
+          <a href="{{`assets/img/portfolio/invoices/05.png` | absURL}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 portfolio-item filter-inventory">
+        <div class="portfolio-img"><img src="{{`assets/img/portfolio/inventory/1.png` | absURL}}" class="img-fluid" alt=""></div>
+        <div class="portfolio-info">
+          <h4>Inventory 1</h4>
+          <p>Inventory</p>
+          <a href="{{`assets/img/portfolio/inventory/1.png` | absURL}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 portfolio-item filter-inventory">
+        <div class="portfolio-img"><img src="{{`assets/img/portfolio/inventory/2.png` | absURL}}" class="img-fluid" alt=""></div>
+        <div class="portfolio-info">
+          <h4>Inventory 2</h4>
+          <p>Inventory</p>
+          <a href="{{`assets/img/portfolio/inventory/2.png` | absURL}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 portfolio-item filter-inventory">
+        <div class="portfolio-img"><img src="{{`assets/img/portfolio/inventory/3.png` | absURL}}" class="img-fluid" alt=""></div>
+        <div class="portfolio-info">
+          <h4>Inventory 3</h4>
+          <p>Inventory</p>
+          <a href="{{`assets/img/portfolio/inventory/3.png` | absURL}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 portfolio-item filter-inventory">
+        <div class="portfolio-img"><img src="{{`assets/img/portfolio/inventory/4.png` | absURL}}" class="img-fluid" alt=""></div>
+        <div class="portfolio-info">
+          <h4>Inventory 4</h4>
+          <p>Inventory</p>
+          <a href="{{`assets/img/portfolio/inventory/4.png` | absURL}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section><!-- End Portfolio Section -->
+<!-- ======= Team Section ======= -->
+<!-- <section id="team" class="team section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Team</h2>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6">
+        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+          <div class="pic" style="width: 120px"><img src="{{`assets/img/team/alex.png` | absURL}}" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4>Alexey Yanchenko</h4>
+            <span>Chief Executive Officer</span>
+
+            <div class="social">
+              <a href="https://twitter.com/yanchenkoal" target="_blank"><i class="ri-twitter-fill"></i></a>
+
+              <a href="https://instagram.com/mryanchenko" target="_blank"><i class="ri-instagram-fill"></i></a>
+              <a href="https://www.linkedin.com/in/alexeyyanchenko/" target="_blank"> <i class="ri-linkedin-box-fill"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 mt-4 mt-lg-0">
+        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+          <div class="pic" style="width: 120px;height: 120px"><img src="{{`assets/img/team/henry.jpg` | absURL}}" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4>Henry Bui</h4>
+            <span>Software Developer</span>
+
+            <div class="social">
+
+
+
+              <a href="https://www.linkedin.com/in/bui-quoc-viet-21566314b/" target="_blank"> <i class="ri-linkedin-box-fill"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 mt-4">
+        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+          <div class="pic" style="width: 120px"><img src="{{`assets/img/team/team-3.jpg` | absURL}}" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4>William Anderson</h4>
+            <span>CTO</span>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 mt-4">
+        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+          <div class="pic" style="width: 120px"><img src="{{`assets/img/team/logo512.png` | absURL }}" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4>Amy</h4>
+            <span>AI Digital Assistant</span>
+            <div class="social">
+              <a href="https://www.youtube.com/@amyerp" target="_blank"><i class="ri-youtube-fill"></i></a>
+              <a href="https://www.linkedin.com/company/amy-erp-crm/" target="_blank"> <i class="ri-linkedin-box-fill"></i> </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section> -->
+<!-- End Team Section -->
+  {{ "<!-- ======= Pricing Section ======= -->" | safeHTML }}
+  <!-- <section id="pricing" class="pricing">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>{{ i18n "amy_pricing" | safeHTML }}</h2>
+        <p>Better Solution for Individuals and Entrepreneurs.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6 mt-6 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+          <div class="box ">
+            <h3>Start</h3>
+            <h4><sup>€</sup>9.99<span>{{ i18n "price_exp" | safeHTML }}</span></h4>
+            <ul>
+              <li><b>Start {{ i18n "feats" | safeHTML }}: </b></li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_1" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_2" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_3" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_4" | safeHTML }} </li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_5" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_6" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_7" | safeHTML }} </li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_8" | safeHTML }} </li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_9" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_10" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_11" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_12" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "feat_13" | safeHTML }} </li>
+            </ul>
+            <a href="https://customers.erpamy.com/signup" class="buy-btn">{{ i18n "start_trial" | safeHTML }}</a>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="col-lg-6 mt-6 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="box featured">
+            <h3>Self-hosted</h3>
+
+            <ul>
+              <li><b>{{ i18n "sh_1" | safeHTML }}:</b></li>
+              <li><i class="bx bx-check"></i> {{ i18n "sh_2" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "sh_3" | safeHTML }}</li>
+              <li><i class="bx bx-check"></i> {{ i18n "sh_4" | safeHTML }} </li>
+            </ul>
+            <a href="#contact" class="buy-btn">{{ i18n "sh_5" | safeHTML }}</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section> -->
+
+  {{ "<!-- ======= Frequently Asked Questions Section ======= -->" | safeHTML }}
+ <!--  <section id="faq" class="faq section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>{{ i18n "faq" | safeHTML }}</h2>
+      </div>
+
+      <div class="faq-list">
+        <ul>
+          <li data-aos="fade-up" data-aos-delay="100">
+            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1" href="#" rel="nofollow">{{ i18n "faq1_q" | safeHTML }} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+              <p>
+                {{ i18n "faq1_a" | safeHTML }}
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="200">
+            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed" href="#" rel="nofollow">{{ i18n "faq2_q" | safeHTML }} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                {{ i18n "faq2_a" | safeHTML }}
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="300">
+            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed" href="#" rel="nofollow">{{ i18n "faq3_q" | safeHTML }} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                {{ i18n "faq3_a" | safeHTML }}
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="400">
+            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed" href="#" rel="nofollow">{{ i18n "faq4_q" | safeHTML }} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                {{ i18n "faq4_a" | safeHTML }}
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="500">
+            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed" href="#" rel="nofollow">{{ i18n "faq5_q" | safeHTML }} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                {{ i18n "faq5_a" | safeHTML }}
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="600">
+            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed" href="#" rel="nofollow">{{ i18n "faq6_q" | safeHTML }} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                {{ i18n "faq6_a" | safeHTML }}
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="700">
+            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-7" href="#" class="collapsed" rel="nofollow">{{ i18n "faq7_q" | safeHTML }} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                {{ i18n "faq7_a" | safeHTML }}
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="800">
+            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-8" href="#" class="collapsed"  rel="nofollow">{{ i18n "faq8_q" | safeHTML }} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                {{ i18n "faq8_a" | safeHTML }}
+              </p>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </section> -->
+
+{{ "<!-- ======= Contact Section ======= -->" | safeHTML }}
+
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>{{ i18n "contacts" | safeHTML }}</h2>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>{{ i18n "ge" | safeHTML }}:</h4>
+                  <p><a href="mailto:info@erpamy.com">info@erpamy.com</a></p>
+                </div>
+                <div class="email">
+                  <i class="bi bi-receipt"></i>
+                  <h4>{{ i18n "ge1" | safeHTML }}</h4>
+                  <p><a href="mailto:sales@erpamy.com">sales@erpamy.com</a></p>
+                </div>
+                <div class="email">
+                  <i class="bi bi-question-diamond"></i>
+                  <h4>{{ i18n "ge2" | safeHTML }}</h4>
+                  <p>{{ i18n "ge3" | safeHTML }}</p>
+                  <h4><a href="mailto:support@erpamy.com">{{ i18n "ge4" | safeHTML }}></a></h4>
+                </div>
+
+
+
+              </div>
+
+            </div>
+
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form action="" method="post" role="form" class="php-email-form" novalidate>
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">{{ i18n "fname" | safeHTML }} *</label>
+                    <input type="text" name="name" class="form-control" id="fname" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">{{ i18n "lname" | safeHTML }} * </label>
+                    <input type="text" name="name" class="form-control" id="lname" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">{{ i18n "cname" | safeHTML }} * </label>
+                    <input type="text" name="name" class="form-control" id="cname" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">{{ i18n "email" | safeHTML }} *</label>
+                    <input type="email" class="form-control" name="email" id="cemail" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">{{ i18n "phone" | safeHTML }}</label>
+                    <input type="email" class="form-control" name="email" id="phone" >
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="name">{{ i18n "msgplaceholder" | safeHTML }}</label>
+                  <textarea class="form-control" name="message" id="contactmsg" rows="10" required></textarea>
+                </div>
+
+                <p>{{ i18n "msgtxt" | safeHTML }} </p>
+                <div id="msganswer">
+                  <div ></div>
+                </div>
+                <div class="text-center"><button type="submit" id="sendmsg">{{ i18n "gnt" | safeHTML }}</button></div>
+
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>{{ "<!-- End Contact Section -->" | safeHTML }}
+
+
+
+
+</main>{{ "<!-- End #main -->" | safeHTML }}

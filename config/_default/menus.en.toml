@@ -1,0 +1,96 @@
+
+################## english navigation Language menu #################
+#[[language]]
+#name = "Deutsche"
+#url = "/de"
+#post = "flag flag-germany"
+#weight = 1
+
+
+#[[language]]
+#name = "Itaiano"
+#url = "/it"
+#post = "flag flag-italy"
+#weight = 2
+
+[[language]]
+name = "Vietnamese"
+url = "/vn"
+post = "flag flag-vietnam"
+weight = 3
+
+################## english navigation Button menu #################
+[[button]]
+name = "Portal Sign In"
+url = "https://my.erpamy.com/"
+weight = 1
+
+
+[[button]]
+name = "Amy ERP/CRM Sign In"
+url = "https://app.erpamy.com/"
+weight = 2
+
+################## english navigation. Main menu #################
+
+[[main]]
+name = "Home"
+url = "#hero"
+post = "active"
+weight = 1
+
+[[main]]
+name = "About Us"
+url = "#about"
+post = ""
+weight = 2
+
+[[main]]
+name = "Product"
+identifier = "productmenu"
+url = "#portfolio"
+post = ""
+weight = 3
+#hasChildren = false
+
+#[[main]]
+#parent = "productmenu"
+#name = "About Us"
+#url = "#about"
+#weight = 1
+
+
+#[[main]]
+#parent = "productmenu"
+#name = "For Small Companies"
+#url = "#who_use"
+#weight = 3
+#[[main]]
+#parent = "productmenu"
+#name = "For Entreprises"
+#url = "#who_use"
+#weight = 4
+#[[main]]
+#name = "Pricing"
+#url = "#pricing"
+#post = ""
+#weight = 3
+
+#[[main]]
+#name = "FAQ"
+#url = "#faq"
+#post = ""
+#weight = 4
+
+#[[main]]
+#name = "Team"
+#url = "#team"
+#post = ""
+#weight = 5
+[[main]]
+name = "Contact Us"
+url = "#contact"
+post = ""
+weight = 6
+
+
